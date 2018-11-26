@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+require('http-proxy-to-socks/lib/cli').main();

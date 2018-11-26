@@ -1,0 +1,8 @@
+{
+  "name": "git",
+  "cmd": "git",
+  "getConfigCmds": ["config", "--global", "--get"],
+  "setConfigCmds": ["config", "--global"],
+  "unsetConfigCmds": ["config", "--global", "--unset"],
+  "httpProxyFields": ["http.proxy"]
+}

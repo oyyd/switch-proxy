@@ -1,0 +1,11 @@
+{
+  "name": "npm",
+  "cmd": "npm",
+  "getConfigCmds": ["config", "get"],
+  "setConfigCmds": ["config", "set"],
+  "unsetConfigCmds": ["config", "delete"],
+  "httpProxyFields": ["proxy", "https-proxy", "http-proxy"],
+  "extraFields": {
+    "strict-ssl": false
+  }
+}

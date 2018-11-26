@@ -1,0 +1,36 @@
+{
+  "name": "switch-proxy",
+  "version": "1.0.0",
+  "description": "switch-proxy(sp) simplifies switching proxies of your git, docker, npm, etc.",
+  "bin": {
+    "sp": "./bin/sp",
+    "sp-hpts": "./bin/sp-hpts"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "oyyd <oyydoibh@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "src",
+    "bin",
+    "package.json"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "http-proxy-to-socks": "^1.1.0",
+    "ini": "^1.3.5",
+    "mkdirp": "^0.5.1",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testRegex": ".*/__tests__/.*\\.spec\\.js"
+  }
+}
