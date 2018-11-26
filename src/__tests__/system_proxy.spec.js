@@ -1,6 +1,6 @@
 const { SystemProxy } = require('../system_proxy')
 
-describe('SystemProxy', () => {
+describe.skip('SystemProxy', () => {
   describe('SystemProxy.get()', () => {
     if (process.platform === 'darwin') {
       it('should return the proxy settings', (done) => {

@@ -2,7 +2,8 @@ language: node_js
 os:
   - linux
 node_js:
-  - "lts"
+  - "8"
+  - "10"
   - "node"
 script:
   - npm test
